@@ -32,7 +32,7 @@ For the full theoretical argument, including the five structural requirements an
 
 ### Essays & Writing
 
-**[Local-First at the Edge](https://github.com/jediwright/seam-stack/blob/main/essay/local-first-at-the-edge.md)** — Seven boundary principles for what happens where the interior theory of local-first ends. Derives each principle from the specific gap the seven ideals generate at their limits: ungoverned copies, unreachable revocation, ungoverned agents, schema drift, commitment decay. The theoretical grounding for the Seam Stack, demonstrated across two substrates. Published 2026-08-20.
+**[Local-First at the Edge](https://github.com/jediwright/seam-stack/blob/main/essay/local-first-at-the-edge.md)** — Seven boundary principles for what happens where the interior theory of local-first ends. Derives each principle from the specific gap the seven ideals generate at their limits: ungoverned copies, unreachable revocation, ungoverned agents, schema drift, admissibility-uncoupled longevity promises, ungoverned collectives, and ungoverned relays. The theoretical grounding for the Seam Stack, demonstrated across two substrates. Published 2026-08-20.
 
 **[Full Personhood: The Governance Model AI Requires and Capitalism Never Built](https://www.systemsofthought.com/full-personhood/)** — The foundational argument. The gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. Includes the five structural requirements the Seam Stack is built to satisfy.
 
