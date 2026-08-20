@@ -1,6 +1,6 @@
 # Jedi Wright
 
-I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system. That boundary has never had a principled design. This work is an attempt to build one.
+I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work is an attempt to build one.
 
 The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought: the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
 
