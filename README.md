@@ -66,7 +66,7 @@ These explored the problem space and directly informed the architecture above. T
 
 ## Stack
 
-TypeScript · Automerge · Keyhive · AT Protocol · Vitest · MIT licensed throughout
+TypeScript · Automerge · Keyhive · AT Protocol · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · MIT licensed throughout
 
 Active research. Work in progress.
 
