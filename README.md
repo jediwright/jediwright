@@ -38,7 +38,7 @@ For the full theoretical argument, including the five structural requirements an
 
 [Notebook](https://github.com/jediwright/seam-stack/tree/main/notebook) — Build notes from the Seam Stack in progress: 
 - [Entry 01: Building on a Moving Substrate](https://github.com/jediwright/seam-stack/blob/main/notebook/01-building-on-a-moving-substrate.md) — on the Ink & Switch research arc, the Keyhive TypeScript-to-Rust transition, and why the crossing-record schema is specified at the pattern level.
-- [Entry 02: Governance, Designed to Compose](https://github.com/jediwright/seam-stack/blob/main/notebook/02-governance-designed-to-compose.md) — on the structural relationship between the TCF and the Automerge binary format, Hexane's format stability guarantee, and why the governance layer and the storage layer are designed to compose.
+- [Entry 02: Governance, Designed to Compose](https://github.com/jediwright/seam-stack/blob/main/notebook/02-governance-designed-to-compose.md) — on the structural relationship between the Tiered Content Framework and the Automerge binary format, Hexane's format stability guarantee, and why the governance layer and the storage layer are designed to compose.
 
 More writing at [Systems of Thought](https://www.systemsofthought.com).
 
