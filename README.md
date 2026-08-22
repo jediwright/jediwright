@@ -36,6 +36,8 @@ For the full theoretical argument, including the five structural requirements an
 
 **[Full Personhood: The Governance Model AI Requires and Capitalism Never Built](https://www.systemsofthought.com/full-personhood/)** — The foundational argument. The gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. Includes the five structural requirements the Seam Stack is built to satisfy.
 
+[Notebook](https://github.com/jediwright/seam-stack/tree/main/notebook) — Build notes from the Seam Stack in progress. [Entry 01: Building on a Moving Substrate](https://github.com/jediwright/seam-stack/blob/main/notebook/01-building-on-a-moving-substrate.md) — on the Ink & Switch research arc, the Keyhive TypeScript-to-Rust transition, and why the crossing-record schema is specified at the pattern level.
+
 More writing at [Systems of Thought](https://www.systemsofthought.com).
 
 ---
