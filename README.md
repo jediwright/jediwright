@@ -93,7 +93,7 @@ Three versions are in development: a public research essay, a researcher circula
 
 ## Stack
 
-TypeScript · Automerge · Keyhive · AT Protocol · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · MIT licensed throughout
+TypeScript · Automerge · Keyhive · AT Protocol · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · Unified Field Orchestrator (UFO) · MIT licensed throughout
 
 Active research. Work in progress.
 
