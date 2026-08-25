@@ -6,7 +6,7 @@ The core argument, developed in the [Full Personhood essay](https://systemsoftho
 
 ---
 
-## The Architecture
+## The Architecture (key project repos)
 
 **[seam-stack](https://github.com/jediwright/seam-stack)** — The foundational framework. A four-layer pattern (Substrate, Governance, Boundary, Evidence) for systems where the seam — the governed crossing point between a person's data and an institutional system — is the primary design surface, not the server.
 
