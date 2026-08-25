@@ -73,9 +73,9 @@ These explored the problem space and directly informed the architecture above. T
 
 **The Tiered Content Framework**
 
-The Governance layer in the Seam Stack is the Tiered Content Framework (TCF) — a six-tier model for structuring and classifying content so that both humans and machines can reason about what a piece of content is, how trustworthy it is, and how it relates to other content.
+The Governance layer in the Seam Stack is the Tiered Content Framework (TCF) — a seven-tier model for structuring and classifying content so that both humans and machines can reason about what a piece of content is, how trustworthy it is, and how it relates to other content.
 
-The tiers run from Particles (the smallest governed unit — a single claim, label, or data point) up through Clusters, Zones, Structures, Ecosystems, and Biomes. Three cross-cutting dimensions govern every tier: epistemic status, temporal validity, and AI provenance. The framework is designed to compose with formal knowledge representation standards rather than replace them.
+The tiers run from Quarks (the governance conditions under which content is valid — constraints, schemas, terminology rules) through Particles, Clusters, Zones, Structures, and Ecosystems, up to Biomes (the complete digital content presence of an organization across every channel it maintains). Three cross-cutting dimensions govern every tier: epistemic status, temporal validity, and AI provenance. The framework is designed to compose with formal knowledge representation standards rather than replace them.
 
 The TCF is documented and versioned at [jediwright.com/content-strategy-framework](https://www.jediwright.com/content-strategy-framework).
 
