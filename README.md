@@ -69,6 +69,28 @@ These explored the problem space and directly informed the architecture above. T
 
 ---
 
+## Other Frameworks
+
+**The Tiered Content Framework**
+
+The Governance layer in the Seam Stack is the Tiered Content Framework (TCF) — a six-tier model for structuring and classifying content so that both humans and machines can reason about what a piece of content is, how trustworthy it is, and how it relates to other content.
+
+The tiers run from Particles (the smallest governed unit — a single claim, label, or data point) up through Clusters, Zones, Structures, Ecosystems, and Biomes. Three cross-cutting dimensions govern every tier: epistemic status, temporal validity, and AI provenance. The framework is designed to compose with formal knowledge representation standards rather than replace them.
+
+The TCF is documented and versioned at [jediwright.com/content-strategy-framework](https://www.jediwright.com/content-strategy-framework).
+
+**The Resonance Architecture**
+
+The Resonance Architecture is a cross-domain synthesis that argues for structural isomorphism between mind, matter, and consciousness across the same seven organizational tiers first mapped in the TCF, and extends this into a much larger theoretical claim. It is the most speculative of my projects and the one that, if it holds, would reframe the others.
+
+Current status: intellectually rigorous as a working spec, not yet ready for formal research or peer review. The framework has begun doing argumentative work in adjacent projects under a more constrained sense of "resonance" — the recognition of a participant across contexts and over time, requiring a foundation on which prior recognition can compound. That operationalization has been adopted into the governed session methodology running across all active development work here, where participant recognition across sessions is a structural requirement, not a convenience. That adoption is itself an early form of testing. The full cross-domain claim still requires one independent collaborator and at least one operationalized prediction before it reaches funding-grade.
+
+The same organizational logic I found in content strategy and systems thinking may run all the way through matter, mind, and everything in between. Same structure, seven tiers. That's a testable claim. We're the first generation with the computational and cognitive tools to find out whether it holds. That's what this is.
+
+Three versions are in development: a public research essay, a researcher circulation spec, and a frontier companion document for the more speculative material. Each addresses a different audience. 
+
+---
+
 ## Stack
 
 TypeScript · Automerge · Keyhive · AT Protocol · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · MIT licensed throughout
