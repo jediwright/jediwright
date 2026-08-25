@@ -63,7 +63,7 @@ These explored the problem space and directly informed the architecture above. T
 
 **If you want the conceptual frame first:** Read [THEORY.md](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words, no assumed domain knowledge), then the [Full Personhood essay](https://systemsofthought.com) for the full argument.
 
-**If you want to see the architecture run:** Start with [PC#7 in local-first-series](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-07-employment-seam-v0-5.md) for the spec, then the [employment-seam repo](https://github.com/jediwright/employment-seam) for the implementation.
+**If you want to see the architecture run:** Start with [PC#7 in local-first-series](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-07-employment-seam.md)) for the spec, then the [employment-seam repo](https://github.com/jediwright/employment-seam) for the implementation.
 
 **If you're interested in the governance methodology:** [governed-pr-framework](https://github.com/jediwright/governed-pr-framework) is the most portable piece — usable independently of the rest of this work.
 
