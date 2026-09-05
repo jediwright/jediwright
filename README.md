@@ -2,7 +2,9 @@
 
 I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work is an attempt to build one.
 
-The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought: the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
+The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought (long-form essays and thoughts live there), is that the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
+
+**[systems-of-thought](https://github.com/jediwright/systems-of-thought)** — The research program root. Journal, cross-workstream documentation, and the full arc of the work.
 
 ---
 
@@ -35,6 +37,9 @@ For the full theoretical argument, including the five structural requirements an
 **[Local-First at the Edge](https://github.com/jediwright/seam-stack/blob/main/essay/local-first-at-the-edge.md)** — Seven boundary principles for what happens where the interior theory of local-first ends. Derives each principle from the specific gap the seven ideals generate at their limits: ungoverned copies, unreachable revocation, ungoverned agents, schema drift, admissibility-uncoupled longevity promises, ungoverned collectives, and ungoverned relays. The theoretical grounding for the Seam Stack, demonstrated across two substrates. Published 2026-08-20.
 
 **[Full Personhood: The Governance Model AI Requires and Capitalism Never Built](https://www.systemsofthought.com/full-personhood/)** — The foundational argument. The gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. Includes the five structural requirements the Seam Stack is built to satisfy.
+
+[Journal](https://github.com/jediwright/systems-of-thought/tree/main/journal) — Cross-workstream dispatches on the full research program:
+- [01: What the Work Adds Up To](https://github.com/jediwright/systems-of-thought/blob/main/journal/journal-01-what-the-work-adds-up-to.md) — On the three tracks running simultaneously — prototype, boundary theory, and formal grammar — what each has established, and what a new, second-seam work is for.
 
 [Notebook](https://github.com/jediwright/seam-stack/tree/main/notebook) — Build notes from the Seam Stack in progress: 
 - [Entry 01: Building on a Moving Substrate](https://github.com/jediwright/seam-stack/blob/main/notebook/01-building-on-a-moving-substrate.md) — on the Ink & Switch research arc, the Keyhive TypeScript-to-Rust transition, and why the crossing-record schema is specified at the pattern level.
