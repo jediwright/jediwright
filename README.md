@@ -14,9 +14,13 @@ The core argument, developed in the [Full Personhood essay](https://systemsoftho
 
 **[local-first-series](https://github.com/jediwright/local-first-series)** — Specifications and Pattern Commons entries for governed boundary crossings across employment, commerce, healthcare, and social domains. The Pattern Commons is a reusable library of architectural patterns for seam design; entries currently include PC#0 (The Governed Crossing), PC#7 (Employment Seam), and PC#8 (Substrate-Crossing Seam — governing how a local-first record crosses into a public protocol like AT Protocol / Bluesky).
 
-**[employment-seam](https://github.com/jediwright/employment-seam)** — The reference implementation. Pattern Commons #7: the worker owns the knowledge graph; the platform facilitates the handoff and exits. Built on Automerge + Keyhive for cryptographic local-first document storage, with a live AT Protocol crossing demonstration. This is where the architecture runs.
+**[selvage](https://github.com/jediwright/selvage)** — The formal grammar. A TypeScript parser and JSON Schema emitter for governed crossings: it reads a crossing declaration and produces the schema the crossing record must satisfy. Where the Pattern Commons specifies seams in prose, Selvage makes them machine-checkable. Early — rung-2 grammar only, one seam (the PC#8 Publish crossing) instantiated, not yet paneled. Second-seam work (PC#7 employ-side records) is staged.
+
+**[employment-seam](https://github.com/jediwright/employment-seam)** — The reference implementation. Pattern Commons #7: the worker owns the knowledge graph; the platform facilitates the handoff and exits. Built on Automerge + Keyhive for cryptographic local-first document storage, with a live AT Protocol crossing demonstration (PC#8, Phase 3 complete). This is where the architecture runs.
 
 **[governed-pr-framework](https://github.com/jediwright/governed-pr-framework)** — A lightweight PR review framework that scales rigor by blast radius rather than line count. The governance discipline developed for this work, extracted for general use.
+
+**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A local-first social architecture, running at [localfirst.social](https://localfirst.social). The user owns the graph; the relay facilitates connection and exits. Originally an exploratory prototype, now being brought under the Seam Stack governance standard (Phase 4 retrofit in progress: seam decisions recorded, known limits registered, governed PR framework applied).
 
 ---
 
@@ -57,9 +61,9 @@ These explored the problem space and directly informed the architecture above. T
 
 **[checkout-seam](https://github.com/jediwright/checkout-seam)** / **[local-first-ecommerce](https://github.com/jediwright/local-first-ecommerce)** — A local-first e-commerce prototype. Y.js + IndexedDB for all state; the server is required only for payment processing. Demonstrates deliberate boundary design: the network is the seam, not the default.
 
-**[fhir-seam](https://github.com/jediwright/fhir-seam)** — Local-first patient intake with a FHIR mock endpoint as the seam. The healthcare boundary crossing case.
+**[fhir-seam](https://github.com/jediwright/fhir-seam)** — Local-first patient intake with a FHIR mock endpoint as the seam. The healthcare boundary-crossing case.
 
-**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A local-first social architecture. The user owns the graph; the relay facilitates connection and exits.
+**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — Note: revisiting and bumped up to active projects above 9.6.21. A local-first social architecture. The user owns the graph; the relay facilitates connection and exits.
 
 **[governance-tracker](https://github.com/jediwright/governance-tracker)** — Local-first prototype for tracking the AI governance window. Companion to the governance writing at Systems of Thought.
 
@@ -69,7 +73,9 @@ These explored the problem space and directly informed the architecture above. T
 
 **If you want the conceptual frame first:** Read [THEORY.md](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words, no assumed domain knowledge), then the [Full Personhood essay](https://systemsofthought.com) for the full argument.
 
-**If you want to see the architecture run:** Start with [PC#7 in local-first-series](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-07-employment-seam.md)) for the spec, then the [employment-seam repo](https://github.com/jediwright/employment-seam) for the implementation.
+**If you want to see the architecture run:** Start with [PC#7 in local-first-series](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-07-employment-seam.md) for the spec, then the [employment-seam repo](https://github.com/jediwright/employment-seam) for the implementation.
+
+**If you want the formal grammar:** [selvage](https://github.com/jediwright/selvage) is the parser and schema emitter — the point where a seam specification becomes something a validator can enforce.
 
 **If you're interested in the governance methodology:** [governed-pr-framework](https://github.com/jediwright/governed-pr-framework) is the most portable piece — usable independently of the rest of this work.
 
