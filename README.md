@@ -50,6 +50,7 @@ For the full theoretical argument, including the five structural requirements an
 - [Entry 02: Governance, Designed to Compose](https://github.com/jediwright/seam-stack/blob/main/notebook/02-governance-designed-to-compose.md) — on the structural relationship between the Tiered Content Framework and the Automerge binary format, Hexane's format stability guarantee, and why the governance layer and the storage layer are designed to compose.
 - [Entry 03: What Gets Tested Before Publishing](https://github.com/jediwright/seam-stack/blob/main/notebook/03-what-gets-tested-before-publishing.md) — on the adversarial sweep that narrowed the Seam Stack's schema governance claim, the prior systems that came closest, and what remains unswept.
 - [Entry 04: Testing Whether the Governance Holds](https://github.com/jediwright/seam-stack/blob/main/notebook/04-testing-whether-the-governance-holds.md) — on the three scenarios Phase 3 ran against the employment-seam prototype, what the delayed-release and content-integrity runs found, and what remains open.
+- [Entry 05: Running a Framework's Trust Rules for the First Time](https://github.com/jediwright/seam-stack/blob/main/notebook/05-running-a-frameworks-trust-rules-for-the-first-time.md) — on Phase 0 of the Tiered Content Framework's TCF runtime first build, the four places the runtime spec did not execute as written, the build defect a siloed critic caught that twenty fixtures missed, and what the framework's next revision now has to rule on.
 
 More writing at [Systems of Thought](https://www.systemsofthought.com).
 
