@@ -22,7 +22,7 @@ The core argument, developed in the [Full Personhood essay](https://systemsoftho
 
 **[governed-pr-framework](https://github.com/jediwright/governed-pr-framework)** — A lightweight PR review framework that scales rigor by blast radius rather than line count. The governance discipline developed for this work, extracted for general use.
 
-**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A local-first social architecture, running at [localfirst.social](https://localfirst.social). The user owns the graph; the relay facilitates connection and exits. Originally an exploratory prototype, now being brought under the Seam Stack governance standard (Phase 4 retrofit in progress: seam decisions recorded, known limits registered, governed PR framework applied).
+**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A social network where the user owns the graph. The relay facilitates connection and exits. Built for people who want presence without  performance — connection that doesn't require handing your social graph to a server that monetizes it. Running at [localfirst.social](https://localfirst.social). Originally an exploratory prototype, now being brought under the Seam Stack governance standard. Phase 4 governance retrofit in progress: seam decisions recorded, known limits registered, and my governed PR framework applied.
 
 ---
 
