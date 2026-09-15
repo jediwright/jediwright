@@ -2,9 +2,9 @@
 
 ## TL;DR
 
-I'm an AI experience architect, content strategist, and UX practitioner. I'm also building a governed architecture for the boundary between personal data and institutional systems — the place where the platform should facilitate a handoff and exit, not accumulate.
+I'm an AI experience architect, content strategist, and UX practitioner by trade, and a builder by history. I've been writing code since Flash and hand-rolled HTML/XHTML/CSS, moved into strategy and architecture as the discipline matured, and have returned to active development through the local-first work in these repos. That story isn't incidental. The governance frameworks here, with the Seam Stack, the Tiered Content Framework, the Pattern Commons, etc., are what you get when someone who has designed and built across a wide range of projects keeps thinking about why the systems those decisions produced keep failing the people inside them, and wants an alternative. So, I'm building a governed architecture for the boundary between personal data and institutional systems, where the platform should facilitate a handoff and exit, not accumulate.
 
-The core claim: information asymmetry between institutions and people  is architectural before it is political. The architecture can now be built on the person's side.
+The core claim: information asymmetry between institutions and people is architectural before it is political. The architecture can now be built on the person's side. The repos shared here are the build.
 
 **What's running:**
 - [localfirst.social](https://localfirst.social) — a social network where the user owns the graph and the relay exits after connection
@@ -23,7 +23,7 @@ The core claim: information asymmetry between institutions and people  is archit
 
 ## Intro
 
-I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work is an attempt to build one.
+I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work and effort are aimed at building just that.
 
 The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought (long-form essays and thoughts live there), is that the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
 
