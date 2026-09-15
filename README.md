@@ -1,5 +1,28 @@
 # Jedi Wright
 
+## TL;DR
+
+I'm an AI experience architect, content strategist, and UX practitioner. I'm also building a governed architecture for the boundary between personal data and institutional systems — the place where the platform should facilitate a handoff and exit, not accumulate.
+
+The core claim: information asymmetry between institutions and people  is architectural before it is political. The architecture can now be built on the person's side.
+
+**What's running:**
+- [localfirst.social](https://localfirst.social) — a social network where the user owns the graph and the relay exits after connection
+- [tcf-runtime](https://github.com/jediwright/tcf-runtime) — an executable write-time gate for my Tiered Content Framework's (epistemic status) rules
+
+**What's specified and implemented:**
+- [seam-stack](https://github.com/jediwright/seam-stack) — the four-layer governance framework behind all of it
+- [employment-seam](https://github.com/jediwright/employment-seam) — Pattern Commons #7; the worker owns the knowledge graph
+
+**The argument in long form:** [Full Personhood](https://systemsofthought.com) 
+— the governance model AI requires and capitalism never built
+
+**Start here** if you're new: ['THEORY.md'](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words, no assumed domain knowledge), then the Full Personhood essay.
+
+---
+
+## Intro
+
 I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work is an attempt to build one.
 
 The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought (long-form essays and thoughts live there), is that the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
