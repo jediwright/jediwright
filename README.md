@@ -7,7 +7,7 @@ I'm an AI experience architect, content strategist, and UX practitioner by trade
 The core claim: information asymmetry between institutions and people is architectural before it is political. The architecture can now be built on the person's side. The repos shared here are the build.
 
 **What's running:**
-- [localfirst.social](https://localfirst.social) — a social network where the user owns the graph and the relay exits after connection
+- [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (repo) — a social network where the user owns the graph and the relay exits after connection
 - [tcf-runtime](https://github.com/jediwright/tcf-runtime) — an executable write-time gate for my Tiered Content Framework's (epistemic status) rules
 
 **What's specified and implemented:**
