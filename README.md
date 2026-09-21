@@ -7,7 +7,7 @@ I'm an AI experience architect, content strategist, and UX practitioner by trade
 The core claim: information asymmetry between institutions and people is architectural before it is political. The architecture can now be built on the person's side. The repos shared here are the build.
 
 **What's running:**
-- [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (repo) | [local-first-social-native](https://github.com/jediwright/local-first-social-native) (native repo, Phase 0) — a social network where the user owns the graph and the relay exits after connection. The live web app is joined by a native device app now in early build: a Rust core on an Automerge + Keyhive private substrate, with AT Protocol handling identity, rendezvous, and governed crossing. Parallel tracks, not a succession — the web app continues on its own dev line.
+- [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (web repo) | [local-first-social-native](https://github.com/jediwright/local-first-social-native) (native repo, Phase 0) — a social network where the user owns the graph and the relay exits after connection. The live web app is joined by a native device app now in early build: a Rust core on an Automerge + Keyhive private substrate, with AT Protocol handling identity, rendezvous, and governed crossing. Parallel tracks, not a succession — the web app continues on its own dev line.
 
 **What's specified and implemented:**
 - [seam-stack](https://github.com/jediwright/seam-stack) — the four-layer governance framework behind all of it
