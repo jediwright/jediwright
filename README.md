@@ -7,16 +7,19 @@ I'm an AI experience architect, content strategist, and UX practitioner by trade
 The core claim: information asymmetry between institutions and people is architectural before it is political. The architecture can now be built on the person's side. The repos shared here are the build.
 
 **What's running:**
-- [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (web repo) | [local-first-social-native](https://github.com/jediwright/local-first-social-native) (native repo, Phase 1 built) — a social network where the user owns the graph and the relay exits after connection. The live web app is joined by a native device app: a Rust core on Automerge + Keyhive for private, device-held data, with AT Protocol for identity, rendezvous, and governed crossing. Built and verified on iOS and Android so far: an identity created from cold keys, groups with grant and revoke, and recovery from a cold key after the device key is lost. Sync between devices is next. Parallel tracks, not a succession — the web app continues on its own dev line.
+- [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (web repo) | [local-first-social-native](https://github.com/jediwright/local-first-social-native) (native repo, Phase 1 built) — a social network where the user owns the graph and the relay exits after connection. The live web app is joined by a native device app: a Rust core on Automerge + Keyhive for private, device-held data, with AT Protocol for identity, rendezvous, and governed crossing. Built and verified on iOS and Android: an identity created from cold keys, groups with grant and revoke, and recovery from a cold key after the device key is lost. Phase 2 is next: sync between devices and recovery onto a new device. Parallel tracks, not a succession — the web app continues on its own dev line.
 
 **What's specified and implemented:**
 - [seam-stack](https://github.com/jediwright/seam-stack) — the four-layer governance framework behind all of it
 - [employment-seam](https://github.com/jediwright/employment-seam) — Pattern Commons #7; the worker owns the knowledge graph
 
-**The argument in long form:** [Full Personhood](https://systemsofthought.com) 
+**What's open for feedback:**
+- [governedcrossing](https://github.com/jediwright/governedcrossing) — draft AT Protocol lexicons for crossing records; the [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for comment on the [Atmosphere forum](https://discourse.atmosphere.community/t/1287) until 26 October 2026
+
+**The argument in long form:** [Full Personhood](https://www.systemsofthought.com/full-personhood/) 
 — the governance model AI requires and capitalism never built
 
-**Start here** if you're new: ['THEORY.md'](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words, no assumed domain knowledge), then the Full Personhood essay.
+**Start here** if you're new: [The Governed Crossing, in Plain Language](https://github.com/jediwright/systems-of-thought/blob/main/start-here/the-governed-crossing-in-plain-language.md) (no background assumed), then [THEORY.md](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words), then the [Full Personhood essay](https://www.systemsofthought.com/full-personhood/).
 
 ---
 
@@ -24,7 +27,7 @@ The core claim: information asymmetry between institutions and people is archite
 
 I build governance architecture for the boundary between personal data and institutional systems — the place where local-first software hands off to the network, where a worker's record crosses into a platform, where a patient's data reaches a health system, where a person's social graph touches a relay, and where financial transactions clear through payment infrastructure. That boundary has never had a principled design. This work and effort are aimed at building just that.
 
-The core argument, developed in the [Full Personhood essay](https://systemsofthought.com) at Systems of Thought (long-form essays and thoughts live there), is that the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
+The core argument, developed in the [Full Personhood essay](https://www.systemsofthought.com/full-personhood/) at Systems of Thought (long-form essays and thoughts live there), is that the gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. The architecture can now be built on the person's side. These repos are the build.
 
 **[systems-of-thought](https://github.com/jediwright/systems-of-thought)** — The research program root. Journal, cross-workstream documentation, and the full arc of the work.
 
@@ -40,13 +43,15 @@ The core argument, developed in the [Full Personhood essay](https://systemsoftho
 
 **[tcf-runtime](https://github.com/jediwright/tcf-runtime)** — The content governance layer, made executable. The Tiered Content Framework says every piece of content carries an epistemic status — confirmed, inferred, unverified, time-sensitive — declared at the smallest unit and inherited upward, so a composite is never more certain than its weakest member. This repository is the machinery that enforces that at write time: a content-addressed constraint store, SHACL shapes pinned by digest, and a gate that refuses or annotates a write before it is committed. Implements the framework; is not its canonical text. Early — Phase 0 complete (write-time gate on fixtures, engine pinned, every refusal path reached by a real run), Python and a file-backed store first, Automerge reached through an adapter not assumed. Nothing here stops a real publish yet; the crossing gate that would is [PC#9](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-09-governed-content-production-crossing.md), which is specified to read this runtime's outputs. The runtime spec has since been revised to v0.2 after an independent adversarial review, which also caught one build defect the fixtures missed; the fix is in.
 
+**[governedcrossing](https://github.com/jediwright/governedcrossing)** — The crossing record, written down for a public protocol. A governed crossing record is evidence that data crossed from a person's own system into shared infrastructure: what was authorized to cross, by whom, when, under what exposure claim, and where it landed. This repository holds the bindings that write that record down (the first is a set of AT Protocol lexicons) and the conformance rules a record must meet beyond its schema. The record's meaning stays defined by the `seam:CrossingRecord` vocabulary in seam-stack; each binding maps onto it rather than redefining it. The principles travel with it: the canonical record lives with the person, a public copy discloses no more than the crossing did, and a record describes what crossed without containing it. Draft: names sit under `org.governedcrossing.temp.*` and may change. The [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for community feedback on the [Atmosphere forum](https://discourse.atmosphere.community/t/1287) until 26 October 2026.
+
 **[employment-seam](https://github.com/jediwright/employment-seam)** — The reference implementation. Pattern Commons #7: the worker owns the knowledge graph; the platform facilitates the handoff and exits. Built on Automerge + Keyhive for cryptographic local-first document storage, with a live AT Protocol crossing demonstration (PC#8, Phase 3 complete). This is where the architecture runs. Featured in [This Month in Automerge (August 2026)](https://automerge.org/blog/2026-august/) as the first prototype combining Keyhive with AT Protocol.
 
 **[governed-pr-framework](https://github.com/jediwright/governed-pr-framework)** — A lightweight PR review framework that scales rigor by blast radius rather than line count. The governance discipline developed for this work, extracted for general use.
 
-**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A social network where the user owns the graph. The relay facilitates connection and exits. Built for people who want presence without  performance — connection that doesn't require handing your social graph to a server that monetizes it. Running at [localfirst.social](https://localfirst.social). Originally an exploratory prototype, now being brought under the Seam Stack governance standard. Phase 4 governance retrofit in progress: seam decisions recorded, known limits registered, and my governed PR framework applied. Find me at [localfirst.social/#/connect/@jediwright](https://localfirst.social/#/connect/@jediwright).
+**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — A social network where the user owns the graph. The relay facilitates connection and exits. Built for people who want presence without performance — connection that doesn't require handing your social graph to a server that monetizes it. Running at [localfirst.social](https://localfirst.social). Originally an exploratory prototype, now being brought under the Seam Stack governance standard. Phase 4 governance retrofit in progress: seam decisions recorded, known limits registered, and my governed PR framework applied. Find me at [localfirst.social/#/connect/@jediwright](https://localfirst.social/#/connect/@jediwright).
 
-**[local-first-social-native](https://github.com/jediwright/local-first-social-native)** — The native device app for the same social network: SwiftUI and Jetpack Compose shells over a shared Rust core, with keys held on the device and data in SQLite. The core runs Keyhive's identity and group model directly — cold admin keys, a device key, grant and revoke behind the app's own policy, and recovery that restores the ability to keep administering groups, not just membership. Built so far on the device side only; sync between devices and the AT Protocol crossing come later. Published [evidence notes](https://github.com/jediwright/local-first-social-native/tree/main/docs) measure what the app stores under the current Keyhive encoding and what a format change would cost, written for the Keyhive maintainers. Working name; renamed before public release.
+**[local-first-social-native](https://github.com/jediwright/local-first-social-native)** — The native device app for the same social network: SwiftUI and Jetpack Compose shells over a shared Rust core, with keys held on the device and data in SQLite. The core runs Keyhive's identity and group model directly — cold admin keys, a device key, grant and revoke behind the app's own policy, and recovery that restores the ability to keep administering groups, not just membership. Built so far on the device side only: the identity ceremony, grant and revoke, and recovery from the cold key all run on iOS and Android. Phase 2 is next: sync between devices, recovery onto a new physical device, and how a lost device's delegations are handled. The AT Protocol crossing comes after. Published [evidence notes](https://github.com/jediwright/local-first-social-native/tree/main/docs), with v1 (2026-09-26) re-measured from the rows the app now stores, record what the app keeps under the current Keyhive encoding and what a format change would cost, written for the Keyhive maintainers. Working name; renamed before public release.
 
 ---
 
@@ -58,7 +63,7 @@ A person's employment history, health record, or financial data doesn't need to 
 
 The Seam Stack is that governance layer. The Pattern Commons is the reusable expression of it. The employment-seam prototype is the first demonstrated instance.
 
-For the full theoretical argument, including the five structural requirements and their derivation: [Full Personhood — The Governance Model AI Requires and Capitalism Never Built](https://systemsofthought.com)
+For the full theoretical argument, including the five structural requirements and their derivation: [Full Personhood — The Governance Model AI Requires and Capitalism Never Built](https://www.systemsofthought.com/full-personhood/)
 
 ---
 
@@ -90,19 +95,19 @@ These explored the problem space and directly informed the architecture above. T
 
 **[fhir-seam](https://github.com/jediwright/fhir-seam)** — Local-first patient intake with a FHIR mock endpoint as the seam. The healthcare boundary-crossing case.
 
-**[local-first-social-network](https://github.com/jediwright/local-first-social-network)** — Note: revisiting and bumped up to active projects above 9.6.21. A local-first social architecture. The user owns the graph; the relay facilitates connection and exits.
-
 **[governance-tracker](https://github.com/jediwright/governance-tracker)** — Local-first prototype for tracking the AI governance window. Companion to the governance writing at Systems of Thought.
 
 ---
 
 ## Where to Start
 
-**If you want the conceptual frame first:** Read [THEORY.md](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words, no assumed domain knowledge), then the [Full Personhood essay](https://systemsofthought.com) for the full argument.
+**If you want the conceptual frame first:** Read [The Governed Crossing, in Plain Language](https://github.com/jediwright/systems-of-thought/blob/main/start-here/the-governed-crossing-in-plain-language.md) (no background assumed), then [THEORY.md](https://github.com/jediwright/seam-stack/blob/main/THEORY.md) in the seam-stack repo (~650 words), then the [Full Personhood essay](https://www.systemsofthought.com/full-personhood/) for the full argument.
 
 **If you want to see the architecture run:** Start with [PC#7 in local-first-series](https://github.com/jediwright/local-first-series/blob/main/pattern-commons/pattern-commons-07-employment-seam.md) for the spec, then the [employment-seam repo](https://github.com/jediwright/employment-seam) for the implementation.
 
 **If you want the formal grammar:** [selvage](https://github.com/jediwright/selvage) is the parser and schema emitter — the point where a seam specification becomes something a validator can enforce.
+
+**If you build on AT Protocol:** [governedcrossing](https://github.com/jediwright/governedcrossing) holds the draft crossing-record lexicons and conformance rules. The [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for feedback until 26 October 2026.
 
 **If you're interested in the governance methodology:** [governed-pr-framework](https://github.com/jediwright/governed-pr-framework) is the most portable piece — usable independently of the rest of this work.
 
@@ -132,7 +137,7 @@ Three versions are in development: a public research essay, a researcher circula
 
 ## Stack
 
-TypeScript · Automerge · Keyhive · Rust · AT Protocol · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · Unified Field Orchestrator (UFO) · MIT licensed throughout
+TypeScript · Rust · Python · SwiftUI · Jetpack Compose · Automerge · Keyhive · AT Protocol · SHACL · SQLite · Vitest · Tiered Content Framework (TCF) · Resonance Architecture (RA) · Unified Field Orchestrator (UFO) · MIT licensed, except the native app (Apache-2.0)
 
 Active research. Work in progress.
 
