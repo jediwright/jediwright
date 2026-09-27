@@ -10,7 +10,7 @@ The core claim: information asymmetry between institutions and people is archite
 - [localfirst.social](https://localfirst.social) (live build) | [local-first-social-network](https://github.com/jediwright/local-first-social-network) (web repo) | [local-first-social-native](https://github.com/jediwright/local-first-social-native) (native repo, Phase 1 built) — a social network where the user owns the graph and the relay exits after connection. The live web app is joined by a native device app: a Rust core on Automerge + Keyhive for private, device-held data, with AT Protocol for identity, rendezvous, and governed crossing. Built and verified on iOS and Android: an identity created from cold keys, groups with grant and revoke, and recovery from a cold key after the device key is lost. Phase 2 is next: sync between devices and recovery onto a new device. Parallel tracks, not a succession — the web app continues on its own dev line.
 
 **What's specified and implemented:**
-- [seam-stack](https://github.com/jediwright/seam-stack) — the four-layer governance framework behind all of it
+- [seam-stack](https://github.com/jediwright/seam-stack) — the four-layer governance framework behind all of it; its [Technical Architecture Blueprint](https://github.com/jediwright/seam-stack/blob/main/BLUEPRINT.md) maps the whole body of work: architecture, repositories, method, and lexicon
 - [employment-seam](https://github.com/jediwright/employment-seam) — Pattern Commons #7; the worker owns the knowledge graph
 
 **What's open for feedback:**
@@ -35,7 +35,7 @@ The core argument, developed in the [Full Personhood essay](https://www.systemso
 
 ## The Architecture (key project repos)
 
-**[seam-stack](https://github.com/jediwright/seam-stack)** — The foundational framework. A four-layer pattern (Substrate, Governance, Boundary, Evidence) for systems where the seam — the governed crossing point between a person's data and an institutional system — is the primary design surface, not the server.
+**[seam-stack](https://github.com/jediwright/seam-stack)** — The foundational framework. A four-layer pattern (Substrate, Governance, Boundary, Evidence) for systems where the seam — the governed crossing point between a person's data and an institutional system — is the primary design surface, not the server. The [Technical Architecture Blueprint](https://github.com/jediwright/seam-stack/blob/main/BLUEPRINT.md) is the full map: how the layers work, how records compose, where each idea lives in code across the repositories, the pattern's application notes and known limits, the working method, and a lexicon of architecture and method terms.
 
 **[local-first-series](https://github.com/jediwright/local-first-series)** — Specifications and Pattern Commons entries for governed boundary crossings across employment, commerce, healthcare, and social domains. The [Pattern Commons](https://github.com/jediwright/local-first-series/tree/main/pattern-commons) is a reusable library of architectural patterns for seam design; entries currently include PC#00 (The Governed Crossing), PC#7 (Employment Seam), PC#8 (Substrate-Crossing Seam — governing how a local-first record crosses into a public protocol like AT Protocol / Bluesky), and PC#9 (Governed Content Production Crossing — the publish-side gate that makes the Tiered Content Framework (TCF)'s tier boundaries enforcement gates rather than editorial conventions; specified at v0.3, Counter-Pass tested and converged, not yet prototyped).
 
