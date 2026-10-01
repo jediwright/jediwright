@@ -14,7 +14,7 @@ The core claim: information asymmetry between institutions and people is archite
 - [employment-seam](https://github.com/jediwright/employment-seam) — Pattern Commons #7; the worker owns the knowledge graph
 
 **What's open for feedback:**
-- [governedcrossing](https://github.com/jediwright/governedcrossing) — draft AT Protocol lexicons for crossing records; the [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for comment on the [Atmosphere forum](https://discourse.atmosphere.community/t/1287) until 26 October 2026
+- [governedcrossing](https://github.com/jediwright/governedcrossing) — draft AT Protocol lexicons for crossing records; the [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for comment on the [Atmosphere forum](https://discourse.atmosphere.community/t/1287) until 26 October 2026. Note: technically speaking, everything is open to feedback and encouraged.
 
 **The argument in long form:** [Full Personhood](https://www.systemsofthought.com/full-personhood/) 
 — the governance model AI requires and capitalism never built
