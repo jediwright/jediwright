@@ -18,6 +18,9 @@ The core claim: information asymmetry between institutions and people is archite
 
 Note: technically speaking, everything is open to feedback and encouraged.
 
+**What's being tracked:**
+- [The AI Governance Window](https://www.systemsofthought.com/governance/) | [governance-tracker](https://github.com/jediwright/governance-tracker) (repo) — a quarterly read on whether the window for binding democratic governance of AI is opening or closing. Latest: Q3 2026, **Narrowing, by a thin margin** ([the assessment](https://www.systemsofthought.com/ai-governance-window-q3-2026/)).
+
 **The argument in long form:** [Full Personhood](https://www.systemsofthought.com/full-personhood/) 
 — the governance model AI requires and capitalism never built
 
@@ -75,6 +78,8 @@ For the full theoretical argument, including the five structural requirements an
 
 **[Full Personhood: The Governance Model AI Requires and Capitalism Never Built](https://www.systemsofthought.com/full-personhood/)** — The foundational argument. The gap between what institutions know about people and what people can know, control, or demonstrate about themselves is architectural before it is political. Includes the five structural requirements the Seam Stack is built to satisfy.
 
+**[The AI Governance Window in Q3 2026: Narrowing by a Thin Margin](https://www.systemsofthought.com/ai-governance-window-q3-2026/)** — The third-quarter assessment of whether binding democratic governance of AI is still achievable: the verdict, the five domain readings, and the record behind them.
+
 [Journal](https://github.com/jediwright/systems-of-thought/tree/main/journal) — Cross-workstream dispatches on the full research program:
 - [01: What the Work Adds Up To](https://github.com/jediwright/systems-of-thought/blob/main/journal/journal-01-what-the-work-adds-up-to.md) — On the three tracks running simultaneously — prototype, boundary theory, and formal grammar — what each has established, and what a new, second-seam work is for.
 
@@ -90,6 +95,23 @@ More writing at [Systems of Thought](https://www.systemsofthought.com).
 
 ---
 
+## The AI Governance Window
+
+A separate track from the architecture above.
+
+The AI governance window is the period, roughly now to 2030, in which binding democratic governance of AI is still structurally possible. Two clocks run against it: how deeply AI is embedding in critical infrastructure, and how much capacity democratic institutions still have to impose and enforce rules. The window is the gap between them. I assess it each quarter across five domains (regulatory and legal, technical embedding, capability and deployment, democratic institutional capacity, and industry structure) and return one of five states: Opening, Holding, Narrowing, Critical, or Closed.
+
+**Latest assessment: Q3 2026 (July 1 to September 30) — Narrowing, by a thin margin.** The strongest opening record the tracker has logged. The heavier failures sit where the new rules don't reach.
+
+- [The AI Governance Window in Q3 2026: Narrowing by a Thin Margin](https://www.systemsofthought.com/ai-governance-window-q3-2026/) — the quarterly assessment, domain by domain.
+- [The AI Governance Window](https://www.systemsofthought.com/governance/) — the definition, the current status, and the Q3 2026 poster.
+- [The AI Governance Window Tracker](https://www.systemsofthought.com/tracker/) — the hosted app, its limits, and the changelog.
+- [governance-tracker](https://github.com/jediwright/governance-tracker) — the repo: the local-first web app (signals stay in your browser), the Q3 2026 poster, and an [animated reading of the quarter](https://jediwright.github.io/governance-tracker/gwt-app/public/ai-governance-window-q3-2026-motion-plate.html).
+
+One caveat on the repo: the app still runs the original April 2026 method. I rebuilt the method in June 2026, and the port of that rebuild to the app is specified but not yet built. Treat what the app produces as a demonstration. The quarterly assessments on the site are the current read.
+
+---
+
 ## Earlier Prototypes
 
 These explored the problem space and directly informed the architecture above. They're functional demonstrations, not governed to the same standard as the current work.
@@ -97,8 +119,6 @@ These explored the problem space and directly informed the architecture above. T
 **[checkout-seam](https://github.com/jediwright/checkout-seam)** / **[local-first-ecommerce](https://github.com/jediwright/local-first-ecommerce)** — A local-first e-commerce prototype. Y.js + IndexedDB for all state; the server is required only for payment processing. Demonstrates deliberate boundary design: the network is the seam, not the default.
 
 **[fhir-seam](https://github.com/jediwright/fhir-seam)** — Local-first patient intake with a FHIR mock endpoint as the seam. The healthcare boundary-crossing case.
-
-**[governance-tracker](https://github.com/jediwright/governance-tracker)** — Local-first prototype for tracking the AI governance window. Companion to the governance writing at Systems of Thought.
 
 ---
 
@@ -111,6 +131,8 @@ These explored the problem space and directly informed the architecture above. T
 **If you want the formal grammar:** [selvage](https://github.com/jediwright/selvage) is the parser and schema emitter — the point where a seam specification becomes something a validator can enforce.
 
 **If you build on AT Protocol:** [governedcrossing](https://github.com/jediwright/governedcrossing) holds the draft crossing-record lexicons, the conformance rules, and a live example you can check yourself. The [access-change draft](https://github.com/jediwright/governedcrossing/blob/main/drafts/access-change.md) is open for feedback until 26 October 2026.
+
+**If you want the read on AI governance:** Start with [The AI Governance Window](https://www.systemsofthought.com/governance/) for the definition and current status, then the [Q3 2026 assessment](https://www.systemsofthought.com/ai-governance-window-q3-2026/).
 
 **If you're interested in the governance methodology:** [governed-pr-framework](https://github.com/jediwright/governed-pr-framework) is the most portable piece — usable independently of the rest of this work.
 
